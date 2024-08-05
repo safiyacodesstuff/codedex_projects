@@ -12,6 +12,39 @@
             color: #B81D24;
         }
 
+        .container{
+            display: flex;
+        }
+
+        .title-block{
+            text-align: left;
+            flex: none;
+            padding-right: 20px;
+        }
+
+        .icon{
+            border: none;
+            align-items: center;
+            display: flex;
+            padding: none;
+            margin-left: -45px;
+        }
+
+        .text-block{
+            flex: 1.5;
+            max-width: 100%;
+        }
+
+        .image-block{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-right: 50px;
+            max-width: 100%;
+            margin-right: 0%;
+        }
+
         #wrapper{
             text-align: center;
         }
@@ -34,7 +67,19 @@
   </head>
   <body>
     <header>
-        <h1>Notflixx?</h1>
+        <div class="container">
+            <div class="title-block">
+                <h1 class="red">Notflixx?</h1>
+            </div>
+            <h1 class="title-block"> | </h1>
+            <figure>
+                <img class="icon" src="https://mail.google.com/mail/u/0?ui=2&ik=0db7f12759&attid=0.1&permmsgid=msg-a:r-2632329975511200192&th=191239f0787959e1&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_qNQ0wapWSyGk4B4mhxyazZbErSLjX21WAjZpD7WBAvNsGZLrZrDzU0z_VRh9pEtznOdYNMA2zdUCa060LzNM3cu4e0f3G2i9aDXPziXgbcVWaaVTLAcn0MTc&disp=emb&realattid=D65245E6-C458-47BF-A181-AB3B18A6696D" 
+                    width="43" 
+                    height="auto" 
+                    alt="Notflixx? Logo"
+                />
+            </figure>
+        </div>
         <nav>
             <ul>
                 <li><a href="#about-section">About</a></li>
@@ -45,26 +90,37 @@
     <main>
         <h2>Notflixx? | The Website for Film and Series Reviews</h2>
         <section>
-            <h2 class="red">About</h2>
-            <article>
-                Hi! <br>
-                My name is Safiya and being a bored college sudent I find myself spending a lot of time on Netflix, <br>
-                watching everything it has to offer. However, I do know that I should spend my time focussing on uni <br>
-                so this blog serves as an outlet for me to ask myself the question:
-                <h4>Was the time I spent not studying worth it to watch this film/series?</h4> 
-                I will rate the films and series I watched based on the folllowing criteria:
-                <ul>
-                    <li><i><b>Originality:</b></i> Is the story fresh and unique, or does it feel derivative?</li>
-                    <li><i><b>Coherence:</b></i> Does the plot make sense, and are there logical inconsistencies?</li>
-                    <li><i><b>Pacing:</b></i> Is the story well-paced, or does it drag in places?</li>
-                    <li><i><b>Genre:</b></i> Does it deliver what was promised?</li>
-                    <li><i><b>Re-watchability:</b></i> Is it something I'd watch again, and does it hold up on subsequent viewings?</li>
-                </ul>
-                <b>Disclaimer:</b><br>
-                I think you've already guessed it, but I will only rank films and series that are available on Netflix <br>
-                The films and series will be arranged alphabetically and the little number above them is just for aesthetics :] <br>
-                Also, I really like comedic stuff, so most of these films and series will be under the Comedy tag.
-            </article>
+            <div class="container">
+                <div class="text-block">
+                    <h2 class="red">About</h2>
+                    <article>
+                        Hi! <br>
+                        My name is Safiya and being a bored college sudent I find myself spending a lot of time on Netflix, <br>
+                        watching everything it has to offer. However, I do know that I should spend my time focussing on uni <br>
+                        so this blog serves as an outlet for me to ask myself the question:
+                        <h4>Was the time I spent not studying worth it to watch this film/series?</h4> 
+                        I will rate the films and series I watched based on the folllowing criteria:
+                        <ul>
+                            <li><i><b>Originality:</b></i> Is the story fresh and unique, or does it feel derivative?</li>
+                            <li><i><b>Coherence:</b></i> Does the plot make sense, and are there logical inconsistencies?</li>
+                            <li><i><b>Pacing:</b></i> Is the story well-paced, or does it drag in places?</li>
+                            <li><i><b>Genre:</b></i> Does it deliver what was promised?</li>
+                            <li><i><b>Re-watchability:</b></i> Is it something I'd watch again, and does it hold up on subsequent viewings?</li>
+                        </ul>
+                        <b>Disclaimer:</b><br>
+                        I think you've already guessed it, but I will only rank films and series that are available on Netflix <br>
+                        The films and series will be arranged alphabetically and the little number above them is just for aesthetics :] <br>
+                        Also, I really like comedic stuff, so most of these films and series will be under the Comedy tag.
+                    </article>
+                </div>
+                <figure class="image-block">
+                    <img src="https://mail.google.com/mail/u/0?ui=2&ik=0db7f12759&attid=0.1&permmsgid=msg-a:r-2632329975511200192&th=191239f0787959e1&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_qNQ0wapWSyGk4B4mhxyazZbErSLjX21WAjZpD7WBAvNsGZLrZrDzU0z_VRh9pEtznOdYNMA2zdUCa060LzNM3cu4e0f3G2i9aDXPziXgbcVWaaVTLAcn0MTc&disp=emb&realattid=D65245E6-C458-47BF-A181-AB3B18A6696D" 
+                        width="400" 
+                        height="auto" 
+                        alt="Notflixx? Logo"
+                    />
+                </figure>
+            </div>
         </section>
         <section>
             <h2 class="red">Reviews</h2>
