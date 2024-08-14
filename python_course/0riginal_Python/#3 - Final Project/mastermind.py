@@ -1,3 +1,5 @@
+# this code belongs to https://www.codedex.io/python/final-project
+
 import random
 
 # get_next_guess checks if the number that has been put in by the user is a valid one 
