@@ -9,11 +9,11 @@
 </h1>
 
 ## Python Course 🐍 
-- 📚 [Exercises](/codedex_projects/tree/main/python_course/0riginal_Python/%231%20-%20Exercises)
-- ⛳ [Checkpoint Project --> Rock, Paper, Scissors, Lizard, Spock](/codedex_projects/blob/main/python_course/0riginal_Python/%232%20-%20Checkpoint%20Project/rock_paper_scissors_lizard_spock.py)
-- 🚀 [Final Project --> Mastermind](/codedex_projects/blob/main/python_course/0riginal_Python/%233%20-%20Final%20Project/mastermind.py)
+- 📚 [Exercises](python_course/0riginal_Python/#1 - Exercises)
+- ⛳ [Checkpoint Project --> Rock, Paper, Scissors, Lizard, Spock](python_course/0riginal_Python/#2 - Checkpoint Project/rock_paper_scissors_lizard_spock.py)
+- 🚀 [Final Project --> Mastermind](python_course/0riginal_Python/#3 - Final Project/mastermind.py)
 
 ## HTML Course 🎨
-- 📚 [Exercises](/codedex_projects/tree/main/html_course/%231%20-%20Exercises)
-- 🚀 [Final Project --> Comet Kitchen](/codedex_projects/blob/main/html_course/%232%20-%20Final%20Project/restaurant_menu.html)
+- 📚 [Exercises](html_course/#1 - Exercises)
+- 🚀 [Final Project --> Comet Kitchen](html_course/#2 - Final Project/restaurant_menu.html)
 
